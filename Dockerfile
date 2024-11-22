@@ -2,7 +2,6 @@ FROM node:20.13
 
 RUN apt update
 RUN DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends \
-    ca-certificates \
     git \
     tzdata
 

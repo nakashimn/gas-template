@@ -1,10 +1,10 @@
 services:
-  gas_template:
+  gas-template:
     build:
       context: .
       dockerfile: ./Dockerfile
-    container_name: gas_template
-    hostname: gas_template
+    container_name: gas-template
+    hostname: gas-template
     shm_size: '4gb'
     volumes:
       - ./:/workspace:cached
